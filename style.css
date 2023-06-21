@@ -11,3 +11,21 @@ html,body{
     position: relative;
     overflow: hidden;
 }
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page>img{
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    transform: translateY(-35%);
+    right: 5%;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
