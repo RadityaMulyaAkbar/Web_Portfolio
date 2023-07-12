@@ -1,41 +1,5 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-html,body{
-    height: 100%;
-    width: 100%;
-}
-#main{
-    position: relative;
-    overflow: hidden;
-}
-#page{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-}
-#page>img{
-    position: absolute;
-    width: 30%;
-    top: 35%;
-    transform: translateY(-35%);
-    right: 5%;
-}
-#page>#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    z-index: 8;
-    height: 10%;
-    width: 100%;
-    background-color: blueviolet;
-}
-#page2{
-    height: 100vh;
-    width: 100vw;
-    background-color: blueviolet;
 }
