@@ -20,3 +20,10 @@
     background: var(--main-color);
     color: white;
 }
+body{
+    color: var(--text-color);
+    background-color: var(--text-color);
+}
+header{
+    position: fixed;
+}
